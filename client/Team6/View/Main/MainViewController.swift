@@ -40,9 +40,35 @@ extension MainViewController: UICollectionViewDelegate, UICollectionViewDataSour
 	func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 		guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MainCollectionViewCell.identifier, for: indexPath) as? MainCollectionViewCell else {return UICollectionViewCell()}
 		
-		cell.layer.borderWidth = 10
+		cell.layer.borderWidth = 1
+		cell.layer.borderColor = UIColor(named: "MainColeectionViewCellBorderColor")?.cgColor
+		cell.layer.cornerRadius = 16
+		
+		switch indexPath.item {
+		case 0:
+			cell.titleLabel.text = "학교 경쟁\n참여하기"
+			cell.imageView.image = UIImage(named: "TrophyInMain")
+		case 1:
+			cell.titleLabel.text = "나의 경쟁기록"
+			cell.imageView.image = UIImage(named: "GirlInMain")
+		case 2:
+			cell.titleLabel.text = "학교 랭킹\n보기"
+			cell.imageView.image = UIImage(named: "MedalInMain")
+		case 3:
+			cell.titleLabel.text = "퀴즈 풀기"
+			cell.imageView.image = UIImage(named: "ClipboardInMain")
+		default:
+			break
+		}
+		
+		
 		
 		return cell
+	}
+	
+	func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+		let width = (UIScreen.main.bounds.size.width - 60) / 2
+		return CGSize(width: width, height: width)
 	}
 	
 	func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {

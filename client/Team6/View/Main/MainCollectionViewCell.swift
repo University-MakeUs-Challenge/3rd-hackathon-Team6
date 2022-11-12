@@ -11,10 +11,13 @@ class MainCollectionViewCell: UICollectionViewCell {
 	
 	static let className = "MainCollectionViewCell"
 	static let identifier = "MainCollectionViewCell"
-
+	
+	@IBOutlet weak var titleLabel: UILabel!
+	@IBOutlet weak var imageView: UIImageView!
+	
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
 }
