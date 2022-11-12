@@ -21,7 +21,7 @@ class MainViewController: UIViewController {
 		let JoinCompetitionSV = UIStoryboard.init(name: "JoinCompetition", bundle: nil)
 				guard let joinCompetitionVC = JoinCompetitionSV.instantiateViewController(withIdentifier: JoinCompetitionViewController.identifier) as? JoinCompetitionViewController else {return}
 
-				self.navigationController?.pushViewController(joinCompetitionVC, animated: true) 
+				self.navigationController?.pushViewController(joinCompetitionVC, animated: true)
 	}
 	
 }
