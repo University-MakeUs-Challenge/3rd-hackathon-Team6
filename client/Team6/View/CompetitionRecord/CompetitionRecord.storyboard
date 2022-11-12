@@ -141,6 +141,7 @@
                     </view>
                     <connections>
                         <outlet property="backButton" destination="aOp-4t-cMQ" id="GvB-rk-hzi"/>
+                        <outlet property="collectionView" destination="ryK-3p-0pq" id="DU9-71-PpW"/>
                         <outlet property="userNameLabel" destination="IJx-xF-WwX" id="FdG-lT-2ck"/>
                         <outlet property="userRankLabel" destination="Ha1-ad-ERr" id="wyt-9v-TSq"/>
                         <outlet property="userSchoolLabel" destination="hlX-ZM-UTE" id="EJH-VN-VHo"/>

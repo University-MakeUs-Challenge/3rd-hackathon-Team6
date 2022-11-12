@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2200D45729204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200D45529204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift */; };
+		2200D45829204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2200D45629204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib */; };
 		2C29315D291FFBA700A47C34 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C29315C291FFBA700A47C34 /* .gitignore */; };
 		2CA339CE291FF85F00E0EAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA339CD291FF85F00E0EAD1 /* AppDelegate.swift */; };
 		2CA339D0291FF85F00E0EAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA339CF291FF85F00E0EAD1 /* SceneDelegate.swift */; };
@@ -25,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2200D45529204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionRecordCollectionViewCell.swift; sourceTree = "<group>"; };
+		2200D45629204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompetitionRecordCollectionViewCell.xib; sourceTree = "<group>"; };
 		2C29315C291FFBA700A47C34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		2CA339CA291FF85F00E0EAD1 /* Team6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Team6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA339CD291FF85F00E0EAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -120,6 +124,8 @@
 			children = (
 				2CA339EB291FF9C300E0EAD1 /* CompetitionRecordViewController.swift */,
 				2CA339ED291FF9D000E0EAD1 /* CompetitionRecord.storyboard */,
+				2200D45529204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift */,
+				2200D45629204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib */,
 			);
 			path = CompetitionRecord;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 				2CA339DA291FF86000E0EAD1 /* LaunchScreen.storyboard in Resources */,
 				2CA339F2291FFA0900E0EAD1 /* SchoolRanking.storyboard in Resources */,
 				2CA339D7291FF86000E0EAD1 /* Assets.xcassets in Resources */,
+				2200D45829204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib in Resources */,
 				2CA339D5291FF85F00E0EAD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,6 +230,7 @@
 				2CA339E8291FF95900E0EAD1 /* JoinCompetitionViewController.swift in Sources */,
 				2CA339D2291FF85F00E0EAD1 /* MainViewController.swift in Sources */,
 				2CA339CE291FF85F00E0EAD1 /* AppDelegate.swift in Sources */,
+				2200D45729204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift in Sources */,
 				2CA339D0291FF85F00E0EAD1 /* SceneDelegate.swift in Sources */,
 				2CA339F0291FF9FA00E0EAD1 /* SchoolRankingViewController.swift in Sources */,
 			);
