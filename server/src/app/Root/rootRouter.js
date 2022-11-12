@@ -1,5 +1,6 @@
+
 import express from "express";
-import { home, getEnroll, postEnroll, getRanking } from "./rootController";
+import { home, getEnroll, postEnroll} from "./rootController";
 
 const rootRouter = express.Router();
 
