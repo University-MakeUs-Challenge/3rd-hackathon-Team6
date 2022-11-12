@@ -1,3 +1,3 @@
 .DS_Store
 ./server/league-of-college/package-lock.json
-./server/league-of-college/node_modules
+./server/league-of-college/node_modules/*
