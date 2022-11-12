@@ -10,6 +10,9 @@
 		2200D45729204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2200D45529204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift */; };
 		2200D45829204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2200D45629204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib */; };
 		2C29315D291FFBA700A47C34 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2C29315C291FFBA700A47C34 /* .gitignore */; };
+		2C29315F292001E000A47C34 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C29315E292001E000A47C34 /* LoginViewController.swift */; };
+		2C7F7C81292022CE00DB50FE /* MainCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7F7C7F292022CE00DB50FE /* MainCollectionViewCell.swift */; };
+		2C7F7C82292022CE00DB50FE /* MainCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C7F7C80292022CE00DB50FE /* MainCollectionViewCell.xib */; };
 		2CA339CE291FF85F00E0EAD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA339CD291FF85F00E0EAD1 /* AppDelegate.swift */; };
 		2CA339D0291FF85F00E0EAD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA339CF291FF85F00E0EAD1 /* SceneDelegate.swift */; };
 		2CA339D2291FF85F00E0EAD1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA339D1291FF85F00E0EAD1 /* MainViewController.swift */; };
@@ -24,12 +27,17 @@
 		2CA339F2291FFA0900E0EAD1 /* SchoolRanking.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA339F1291FFA0900E0EAD1 /* SchoolRanking.storyboard */; };
 		2CA339F4291FFA3D00E0EAD1 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA339F3291FFA3D00E0EAD1 /* QuizViewController.swift */; };
 		2CA339F6291FFA5D00E0EAD1 /* Quiz.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CA339F5291FFA5D00E0EAD1 /* Quiz.storyboard */; };
+		2CEA8D292920331700DCCC0E /* JoinCompetitionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEA8D272920331700DCCC0E /* JoinCompetitionTableViewCell.swift */; };
+		2CEA8D2A2920331700DCCC0E /* JoinCompetitionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CEA8D282920331700DCCC0E /* JoinCompetitionTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2200D45529204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompetitionRecordCollectionViewCell.swift; sourceTree = "<group>"; };
 		2200D45629204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CompetitionRecordCollectionViewCell.xib; sourceTree = "<group>"; };
 		2C29315C291FFBA700A47C34 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2C29315E292001E000A47C34 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2C7F7C7F292022CE00DB50FE /* MainCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C7F7C80292022CE00DB50FE /* MainCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainCollectionViewCell.xib; sourceTree = "<group>"; };
 		2CA339CA291FF85F00E0EAD1 /* Team6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Team6.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA339CD291FF85F00E0EAD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CA339CF291FF85F00E0EAD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +54,8 @@
 		2CA339F1291FFA0900E0EAD1 /* SchoolRanking.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SchoolRanking.storyboard; sourceTree = "<group>"; };
 		2CA339F3291FFA3D00E0EAD1 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		2CA339F5291FFA5D00E0EAD1 /* Quiz.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Quiz.storyboard; sourceTree = "<group>"; };
+		2CEA8D272920331700DCCC0E /* JoinCompetitionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinCompetitionTableViewCell.swift; sourceTree = "<group>"; };
+		2CEA8D282920331700DCCC0E /* JoinCompetitionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JoinCompetitionTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +114,11 @@
 		2CA339E2291FF8C800E0EAD1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2C29315E292001E000A47C34 /* LoginViewController.swift */,
 				2CA339D1291FF85F00E0EAD1 /* MainViewController.swift */,
 				2CA339D3291FF85F00E0EAD1 /* Main.storyboard */,
+				2C7F7C7F292022CE00DB50FE /* MainCollectionViewCell.swift */,
+				2C7F7C80292022CE00DB50FE /* MainCollectionViewCell.xib */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -115,6 +128,8 @@
 			children = (
 				2CA339E7291FF95900E0EAD1 /* JoinCompetitionViewController.swift */,
 				2CA339E9291FF96700E0EAD1 /* JoinCompetition.storyboard */,
+				2CEA8D272920331700DCCC0E /* JoinCompetitionTableViewCell.swift */,
+				2CEA8D282920331700DCCC0E /* JoinCompetitionTableViewCell.xib */,
 			);
 			path = JoinCompetition;
 			sourceTree = "<group>";
@@ -164,6 +179,8 @@
 			dependencies = (
 			);
 			name = Team6;
+			packageProductDependencies = (
+			);
 			productName = Team6;
 			productReference = 2CA339CA291FF85F00E0EAD1 /* Team6.app */;
 			productType = "com.apple.product-type.application";
@@ -192,6 +209,8 @@
 				Base,
 			);
 			mainGroup = 2CA339C1291FF85F00E0EAD1;
+			packageReferences = (
+			);
 			productRefGroup = 2CA339CB291FF85F00E0EAD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -207,13 +226,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C29315D291FFBA700A47C34 /* .gitignore in Resources */,
+				2C7F7C82292022CE00DB50FE /* MainCollectionViewCell.xib in Resources */,
 				2CA339EE291FF9D000E0EAD1 /* CompetitionRecord.storyboard in Resources */,
 				2CA339EA291FF96700E0EAD1 /* JoinCompetition.storyboard in Resources */,
 				2CA339F6291FFA5D00E0EAD1 /* Quiz.storyboard in Resources */,
 				2CA339DA291FF86000E0EAD1 /* LaunchScreen.storyboard in Resources */,
 				2CA339F2291FFA0900E0EAD1 /* SchoolRanking.storyboard in Resources */,
 				2CA339D7291FF86000E0EAD1 /* Assets.xcassets in Resources */,
+
 				2200D45829204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.xib in Resources */,
+
+				2CEA8D2A2920331700DCCC0E /* JoinCompetitionTableViewCell.xib in Resources */,
+
 				2CA339D5291FF85F00E0EAD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,9 +250,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CA339EC291FF9C300E0EAD1 /* CompetitionRecordViewController.swift in Sources */,
+				2CEA8D292920331700DCCC0E /* JoinCompetitionTableViewCell.swift in Sources */,
+				2C7F7C81292022CE00DB50FE /* MainCollectionViewCell.swift in Sources */,
 				2CA339F4291FFA3D00E0EAD1 /* QuizViewController.swift in Sources */,
 				2CA339E8291FF95900E0EAD1 /* JoinCompetitionViewController.swift in Sources */,
 				2CA339D2291FF85F00E0EAD1 /* MainViewController.swift in Sources */,
+				2C29315F292001E000A47C34 /* LoginViewController.swift in Sources */,
 				2CA339CE291FF85F00E0EAD1 /* AppDelegate.swift in Sources */,
 				2200D45729204A1D00D1EE16 /* CompetitionRecordCollectionViewCell.swift in Sources */,
 				2CA339D0291FF85F00E0EAD1 /* SceneDelegate.swift in Sources */,
