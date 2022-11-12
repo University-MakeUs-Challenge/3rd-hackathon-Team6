@@ -1,5 +1,6 @@
 require("dotenv").config();
 import express from "express"
+import session from "express-session"
 import compression from "compression"
 import methodOverride from "method-override"
 import cors from "cors"
