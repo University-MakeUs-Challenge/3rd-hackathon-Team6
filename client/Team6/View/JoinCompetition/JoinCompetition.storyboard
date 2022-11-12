@@ -15,9 +15,74 @@
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Ps-Up-13x">
+                                <rect key="frame" x="12" y="80" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Mie-Ie-GWF"/>
+                                    <constraint firstAttribute="height" constant="20" id="Vjd-MH-UB5"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="BackButtonImage"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="BrS-Et-oCh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="학교 경쟁 참여하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wZu-on-YtP">
+                                <rect key="frame" x="42" y="78" width="148" height="24"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nVg-iB-OkP">
+                                <rect key="frame" x="0.0" y="122" width="393" height="0.6666666666666714"/>
+                                <color key="backgroundColor" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="dDP-HP-70H"/>
+                                </constraints>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="xVl-Cg-QJO">
+                                <rect key="frame" x="0.0" y="122.66666666666669" width="393" height="729.33333333333326"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <sections/>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P9w-EZ-zZE">
+                                <rect key="frame" x="20" y="758" width="353" height="54"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="54" id="H4r-gJ-a4t"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="참여하기" cornerStyle="large">
+                                    <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="20"/>
+                                    <color key="baseBackgroundColor" red="0.0078431372550000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="joinButtonTapped:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="7fw-A8-Aww"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="xVl-Cg-QJO" secondAttribute="trailing" id="CEj-6Q-g1G"/>
+                            <constraint firstAttribute="bottom" secondItem="P9w-EZ-zZE" secondAttribute="bottom" constant="40" id="OgE-Am-975"/>
+                            <constraint firstAttribute="bottom" secondItem="xVl-Cg-QJO" secondAttribute="bottom" id="T7Q-In-r8s"/>
+                            <constraint firstItem="wZu-on-YtP" firstAttribute="leading" secondItem="9Ps-Up-13x" secondAttribute="trailing" constant="10" id="aKZ-cw-woX"/>
+                            <constraint firstItem="9Ps-Up-13x" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="12" id="bHd-8B-qd7"/>
+                            <constraint firstItem="nVg-iB-OkP" firstAttribute="top" secondItem="wZu-on-YtP" secondAttribute="bottom" constant="20" id="bQH-go-hcu"/>
+                            <constraint firstItem="xVl-Cg-QJO" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="c34-1e-1KG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="nVg-iB-OkP" secondAttribute="trailing" id="gUn-kL-JCG"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="P9w-EZ-zZE" secondAttribute="trailing" constant="20" id="isd-rc-cGV"/>
+                            <constraint firstItem="wZu-on-YtP" firstAttribute="centerY" secondItem="9Ps-Up-13x" secondAttribute="centerY" id="kNq-GK-zWC"/>
+                            <constraint firstItem="9Ps-Up-13x" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="21" id="lrk-QR-K91"/>
+                            <constraint firstItem="nVg-iB-OkP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="rfT-13-hun"/>
+                            <constraint firstItem="xVl-Cg-QJO" firstAttribute="top" secondItem="nVg-iB-OkP" secondAttribute="bottom" id="tBN-1E-OJ4"/>
+                            <constraint firstItem="P9w-EZ-zZE" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="x1h-e5-SAe"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="xVl-Cg-QJO" id="tJc-IP-HnH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -25,6 +90,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BackButtonImage" width="20" height="20"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
